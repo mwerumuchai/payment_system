@@ -1,0 +1,18 @@
+{% extends 'base.html'%} {% load bootstrap3 %} {% load staticfiles %} {{block.super}} {% block content %}
+
+  <div class="col-sm-12" id="sectionA">
+
+    <h3>Theme section</h3>
+    <p>This is the home page</p>
+      <a href="#"><img src="{% static 'img/home.png'%}" class="img-responsive"></a>
+
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <br>
+    <span class="copy-left"> ©2018 Mweru Muchai </span>
+  </div>
+
+
+{% endblock %}
